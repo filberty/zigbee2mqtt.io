@@ -101,8 +101,8 @@ Distance from sensor to liquid surface.
 Value can be found in the published state on the `liquid_depth_max` property.
 It's not possible to read (`/get`) this value.
 To write (`/set`) a value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/set` with payload `{"liquid_depth_max": VALUE}`.
-The minimal value is `0.1` and the maximum value is `10`.
-The unit of this value is `m`.
+The minimal value is `10` and the maximum value is `509`.
+The unit of this value is `cm`.
 
 ### Relay switch (binary)
 Value can be found in the published state on the `relay_switch` property.
